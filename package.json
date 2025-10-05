@@ -1,0 +1,53 @@
+{
+  "name": "la-valecia",
+  "version": "1.0.0",
+  "description": "Premium apparel e-commerce site for La Valecia brand",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": [
+    "e-commerce",
+    "apparel",
+    "fashion",
+    "nextjs",
+    "supabase"
+  ],
+  "author": "La Valecia",
+  "license": "MIT",
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-toast": "^1.2.15",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.57.4",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.2.2",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^15.5.3",
+    "framer-motion": "^12.23.16",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.544.0",
+    "next": "^15.5.3",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.9.2"
+  }
+}
